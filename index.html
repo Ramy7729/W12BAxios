@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="oneColGrid mrgTop">
+        <h1>Activity Finder</h1>
+    </header>
+    <main class="splitGrid">
+        <section class="contentGrid" >
+            <div id="randomContainer"  class="mrgTop"></div>
+            <button class="mrgBtm mrgTop buttonStyle" id="randomizerButton">Random Activity</button>
+        </section> 
+    
+        <section class="contentGridTwo" >
+            <div id="userBasedContainer" class="mrgTop" ></div>
+            <div>
+                <select name="options" id="options">
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                </select>
+                <button id="userActivityButton" class="mrgBtm mrgTop buttonStyleTwo">Activity</button>
+            </div>
+        </section>
+    </main>
+    <div class="oneColGrid">
+        <img src="/entertainment.jpg" alt="A variety of activites to do">
+    </div>   
+
+   
+       
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

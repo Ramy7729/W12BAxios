@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFCBA4;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-size: 1.5em;
+}
+
+.oneColGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  place-items: center;
+  font-size: 1.5em;
+}
+
+.contentGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  place-items: center;
+  background-color: #FFE5B4;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.contentGridTwo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  place-items: center;
+  background-color: #A9E5FF;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.splitGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.mrgTop {
+  margin-top: 20px;
+}
+
+.mrgBtm {
+  margin-bottom: 20px;
+}
+
+select {
+  font-size: 1.5em;
+  padding-bottom: 7px;
+}
+
+.buttonStyle {
+  background-color: #FE7F9C;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.5em;
+  padding: 6px 15px;
+}
+
+.buttonStyleTwo {
+  background-color: #FE7F9C;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.5em;
+  padding: 6px 15px;
+}
+
+img {
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
